@@ -1,2 +1,7 @@
 .env
 .history
+
+venv/
+
+.DS_Store
+.vscode/
