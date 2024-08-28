@@ -1,2 +1,4 @@
 # cobri
-simple project call caserito
+
+install all depedencies
+pip install -r requirements.txt
