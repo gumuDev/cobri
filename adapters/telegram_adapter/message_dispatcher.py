@@ -35,7 +35,6 @@ class MessageDispatcher:
                 )
 
                 transaction = transaction_service.getTransactionType(trans_type)
-                print(response)
                 details = self._get_details_by_type(response, trans_type)
 
                 # Si el tipo de transacción no existe en el diccionario, lo creamos
@@ -48,10 +47,6 @@ class MessageDispatcher:
             for transaction, details in transaction_map.items():
                 trans_type = transaction.get_type()
                 transaction.process_transaction(details, message.id_client)
-                message_generated = self.message_response.generate_message(
-                    details, trans_type
-                )
-                self.message_response.send_message(message_generated, message.id_client)
 
         elif "type" in response and "unknown" != response["type"]:
             trans_type = response["type"]

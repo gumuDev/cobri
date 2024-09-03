@@ -8,7 +8,7 @@ class TransactionService:
         self.client_supabase = client_supabase
         self.message_response = message_response
         self.transaction_services = {
-            'purchase': PurchaseTransactionService,
+            'purchases': PurchaseTransactionService,
             'sell': SellTransactionService,
             'report': ReportTransactionService
         }
