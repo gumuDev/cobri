@@ -5,6 +5,8 @@ import re
 
 class MessageResponse:
 
+    template_str_invalid = "- item: $item, cantidad: $quantity, precio: $price"
+
     def __init__(self, bot_token):
         template_str = "- item: $item, cantidad: $quantity, precio: $price"
         self.bot_token = bot_token
@@ -21,6 +23,23 @@ class MessageResponse:
         messages = []
         for item in json_array:
             message = self.template.substitute(
+                item=item["item"], quantity=item["quantity"], price=item["price"]
+            )
+            messages.append(message)
+        return message_header + "\n".join(messages)
+
+    def generate_message_invalid(self, json_array, trans_type):
+        template_invalid = Template(self.template_str_invalid)
+        trans_header_type = ""
+        if trans_type == "purchase":
+            trans_header_type = "compras"
+        else:
+            trans_header_type = "ventas"
+
+        message_header = f"Estos productos no fuero registrados por falta algun dato {trans_header_type} son estas:\n"
+        messages = []
+        for item in json_array:
+            message = template_invalid.substitute(
                 item=item["item"], quantity=item["quantity"], price=item["price"]
             )
             messages.append(message)

@@ -14,4 +14,4 @@ class TelegramMessageConverter(MessageConverter):
             file_id = message['message']['voice']['file_id']
             return AudioMessage(phone_id, self.provider, file_id)
         else:
-            raise ValueError(f"Unsupported message type")
+            raise ValueError(f"No soportamos esto tipo de mensajes solo audio y texto")

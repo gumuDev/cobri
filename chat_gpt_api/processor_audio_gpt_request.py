@@ -1,4 +1,4 @@
-from .processor_gpt_request import ProcessorGptRequest
+from .processor_analize_request import ProcessorAnalizeRequest
 import os
 class ProcessorAudioGptRequest:
 
@@ -10,7 +10,6 @@ class ProcessorAudioGptRequest:
                    response_format="text")
         
         os.remove(audio_file.name)
-        print(f"Archivo OGG '{audio_file.name}' eliminado")
 
-        response =  ProcessorGptRequest.get_json_from_prompt(transcription, client)
+        response =  ProcessorAnalizeRequest.get_json_analize_from_prompt(transcription, client)
         return response

@@ -3,6 +3,7 @@ import json
 import datetime
 import os
 import json
+from models.gpt_response import GptResponse
 
 # Get the current directory path (where the main.py file is located)
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -13,34 +14,25 @@ json_file_path = os.path.join(current_dir, "prompts.json")
 with open(json_file_path, "r") as file:
     prompts = json.load(file)
 
-class ProcessorGptRequest:
-    def __init__(self) -> None:
-        self.transaction_prompt_services = {
-            'purchases': prompts["text_prompt_purchase"],
-            'sell':  prompts["text_prompt_sell"],
-            'report': prompts["text_prompt_report"]
-        }
+system_prompt = prompts["text_analize_prompt"]
 
-    def get_json_from_prompt(self, message, client, response_type):
+class ProcessorAnalizeRequest:
 
-        if(isinstance(response_type, list)):
-            prompt = self.transaction_prompt_services.get(response_type[0])
-        else:
-            prompt = self.transaction_prompt_services.get(response_type)
-
+    @staticmethod
+    def get_json_analize_from_prompt(message, client):
         response = client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
-                    "content": [{"type": "text", "text": prompt}],
+                    "content": [{"type": "text", "text": system_prompt}],
                 },
                 {
                     "role": "user",
                     "content": [
                         {
                             "type": "text",
-                            "text": f"{message}, fecha actual: {datetime.datetime.now().date()}",
+                            "text": f"{message}",
                         }
                     ],
                 },
@@ -52,4 +44,6 @@ class ProcessorGptRequest:
             presence_penalty=0,
             response_format={"type": "json_object"},
         )
-        return json.loads(response.choices[0].message.content)
+        content = json.loads(response.choices[0].message.content)
+        
+        return GptResponse(message, content)

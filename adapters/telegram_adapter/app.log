@@ -1,0 +1,351 @@
+2024-09-03 08:23:50,994 - __main__ - INFO - Running app telegram-adapter
+2024-09-03 08:24:12,045 - __main__ - INFO - execute message 433416a9-6520-4f22-93b5-976a5df30102
+2024-09-03 08:24:18,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-03 08:24:19,327 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:25:09,661 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-03%2023%3A59&created_at=gte.2024-09-03%2000%3A00 "HTTP/2 200 OK"
+2024-09-03 08:26:17,316 - __main__ - INFO - execute message 8d4d4e6d-9355-433d-b283-cd00110f551c
+2024-09-03 08:26:21,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:26:32,503 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 400 Bad Request"
+2024-09-03 08:26:48,937 - __main__ - INFO - execute message 05fdab5e-aa4e-400f-8179-31484d268fdd
+2024-09-03 08:26:53,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:27:20,130 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 400 Bad Request"
+2024-09-03 08:28:29,179 - __main__ - INFO - execute message c85f326e-470c-4174-abab-e2cc4ff46ea0
+2024-09-03 08:28:35,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-03 08:28:36,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:28:45,560 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-03 08:29:06,964 - __main__ - INFO - execute message c3b469f6-a022-453f-8f25-f87677f2b752
+2024-09-03 08:29:11,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-03 08:29:14,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:29:14,789 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-03 08:29:15,843 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-03 08:30:31,976 - __main__ - INFO - execute message 9f6c6607-1780-42d3-b46c-cc9c1b292e72
+2024-09-03 08:30:35,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:30:37,076 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22phone%22%2C%22item%22%2C%22price%22%2C%22created_at%22 "HTTP/2 400 Bad Request"
+2024-09-03 08:30:52,485 - __main__ - INFO - execute message c73732b6-db86-407f-b65b-bd5c9e44dbd4
+2024-09-03 08:30:56,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-03 08:30:59,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:30:59,362 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-03%2023%3A59&created_at=gte.2024-09-03%2000%3A00 "HTTP/2 200 OK"
+2024-09-03 08:31:08,224 - __main__ - INFO - execute message c489dc8d-7724-45a3-8bed-28d3f35d7c19
+2024-09-03 08:31:12,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-03 08:31:12,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:49:03,363 - __main__ - INFO - Running app telegram-adapter
+2024-09-03 08:49:25,158 - __main__ - INFO - execute message fbc11ec3-7764-4cc6-8c21-86894f8a2eb7
+2024-09-03 08:49:27,486 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:49:44,329 - __main__ - INFO - execute message b42681b1-cebe-47a1-b990-90431c610562
+2024-09-03 08:49:45,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:50:43,101 - __main__ - INFO - Running app telegram-adapter
+2024-09-03 08:50:47,201 - __main__ - INFO - execute message 35f5ca5a-03e1-442e-aaab-1737932883d1
+2024-09-03 08:50:49,181 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 08:51:07,687 - __main__ - INFO - execute message ce501a33-bebe-4749-8dc6-8c15abc5fe6b
+2024-09-03 08:51:09,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 16:28:50,230 - __main__ - INFO - execute message 65ade727-f6cc-4bd8-86c4-28a52ba18c28
+2024-09-03 16:28:53,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-03 16:29:23,706 - __main__ - INFO - Running app telegram-adapter
+2024-09-03 16:29:54,884 - __main__ - INFO - execute message 700b70ce-6f52-4bba-bf82-1de56d6b9b32
+2024-09-04 06:13:35,367 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:13:50,806 - __main__ - INFO - execute message adf862c1-85e9-474b-9df5-4ce217973c89
+2024-09-04 06:15:16,502 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:15:37,707 - __main__ - INFO - execute message ef8a6320-9d1c-43c7-9f42-567643db5ad0
+2024-09-04 06:15:48,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:16:23,673 - __main__ - INFO - execute message f272ae0b-3665-48b0-8aeb-2196fb2eeb33
+2024-09-04 06:16:31,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:18:12,532 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:18:16,718 - __main__ - INFO - execute message 4f502491-f35a-4cb2-99c8-8724d4b1e307
+2024-09-04 06:18:23,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:18:48,052 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:19:32,882 - __main__ - INFO - execute message 27e8e976-6aeb-477e-b440-58e8bcf5aa90
+2024-09-04 06:19:34,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:20:07,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:20:31,551 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:20:53,437 - __main__ - INFO - execute message d9e77893-4b84-4c0f-b5ac-732019ad582f
+2024-09-04 06:20:55,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:21:05,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:21:30,098 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:22:07,136 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:22:15,855 - __main__ - INFO - execute message 05a0a451-a89a-4502-9bf5-b5338f376f8c
+2024-09-04 06:22:18,516 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:22:27,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:23:45,942 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:23:46,621 - __main__ - INFO - execute message 586303f3-bef3-4334-9d16-fbaf7f3e62d7
+2024-09-04 06:23:49,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:23:50,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:25:10,291 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:25:50,347 - __main__ - INFO - execute message 8645459e-c6d5-46c0-9be6-8311cff80ff3
+2024-09-04 06:25:52,735 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:25:54,558 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:27:46,212 - __main__ - INFO - execute message afdd449c-439c-4d8f-bef2-9f73c9618111
+2024-09-04 06:27:48,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:27:49,791 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:28:01,140 - __main__ - INFO - execute message f1a93b50-64f8-47cd-8ac5-22c8576f7051
+2024-09-04 06:28:02,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:28:04,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:29:23,288 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:29:32,345 - __main__ - INFO - execute message 3037b43d-cb75-4827-acd6-4c0b91dbb5a7
+2024-09-04 06:29:34,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:29:35,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:30:12,486 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 06:30:41,301 - __main__ - INFO - execute message 4d8270d0-5aa6-46ce-a342-4900f11d89b9
+2024-09-04 06:30:42,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:30:43,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-04 06:31:02,697 - __main__ - INFO - execute message 623b42d1-a573-467c-b3e4-a2d5ce7b1985
+2024-09-04 06:31:04,913 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:31:06,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:31:23,770 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 06:31:39,982 - __main__ - INFO - execute message efda45bb-7629-4754-aca4-d05f6f3828f7
+2024-09-04 06:31:41,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:31:43,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:31:59,128 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 06:32:19,850 - __main__ - INFO - execute message 7cdf2c09-ff64-4bd9-9dfe-5539fa28acbd
+2024-09-04 06:32:21,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:32:27,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:32:28,128 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 06:32:47,506 - __main__ - INFO - execute message a18d56dc-340e-41d9-821a-b6cbf0d38987
+2024-09-04 06:32:49,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:32:57,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-04 06:40:45,031 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:41:00,662 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:43:17,072 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:43:32,663 - __main__ - INFO - execute message 3ee09103-1e35-456d-819f-ba342928c5bd
+2024-09-04 06:43:34,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:43:35,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:43:37,004 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22created_at%22%2C%22item%22%2C%22quantity%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 06:43:38,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:43:38,848 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22created_at%22%2C%22item%22%2C%22quantity%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 06:46:58,052 - __main__ - INFO - execute message 725b0bc6-edb4-4d2d-9c15-19cb4b54c9dc
+2024-09-04 06:47:04,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:47:04,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-04 06:47:14,426 - __main__ - INFO - execute message 1567fa74-8a4e-4dd5-900f-f6327eaaee26
+2024-09-04 06:47:16,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:48:59,112 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:49:23,677 - __main__ - INFO - execute message f7b61758-c11b-4513-a169-a1edf8ea768e
+2024-09-04 06:49:26,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:49:26,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:49:27,894 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22created_at%22%2C%22price%22%2C%22quantity%22%2C%22phone%22%2C%22item%22 "HTTP/2 201 Created"
+2024-09-04 06:49:49,452 - __main__ - INFO - execute message 3f9b0399-4a5a-41d5-be12-0cced76aca8d
+2024-09-04 06:49:53,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 06:49:53,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:50:14,192 - __main__ - INFO - execute message 2e9f0b0d-9b1c-4718-b0e3-1b9d72b39249
+2024-09-04 06:50:19,081 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 06:50:19,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 06:51:38,966 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 06:51:39,738 - __main__ - INFO - execute message ae8191d5-a15c-4647-bea7-182647c5362d
+2024-09-04 06:51:51,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 06:51:52,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:09:15,487 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 07:09:36,399 - __main__ - INFO - execute message 834009c3-945e-4648-a0ef-df68b26d8780
+2024-09-04 07:09:49,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:10:50,935 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 07:10:59,481 - __main__ - INFO - execute message 233c9472-7f9c-4348-897d-2ea4e8f4c2bb
+2024-09-04 07:11:03,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:11:26,128 - __main__ - INFO - execute message 5bd5e310-37f3-4612-876f-85005e2b9415
+2024-09-04 07:11:28,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:12:26,314 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 07:12:31,574 - __main__ - INFO - execute message c8d5227a-907f-4a20-ab26-a096a82d1cad
+2024-09-04 07:12:33,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:12:37,257 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:12:42,990 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22item%22%2C%22price%22%2C%22created_at%22%2C%22phone%22%2C%22quantity%22 "HTTP/2 201 Created"
+2024-09-04 07:12:50,292 - __main__ - INFO - execute message 9fba2ba4-43c6-4504-b0aa-8a2389505b68
+2024-09-04 07:12:53,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 07:12:54,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:13:07,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 07:13:07,288 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22item%22%2C%22price%22%2C%22created_at%22%2C%22phone%22%2C%22quantity%22 "HTTP/2 201 Created"
+2024-09-04 09:46:50,290 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 09:46:58,951 - __main__ - INFO - execute message 8df6b046-b507-4cd2-9de8-58ad4c58c582
+2024-09-04 09:47:01,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:47:02,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:47:03,224 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22created_at%22%2C%22phone%22%2C%22quantity%22%2C%22price%22%2C%22item%22 "HTTP/2 201 Created"
+2024-09-04 09:47:13,520 - __main__ - INFO - execute message 75331b4d-4645-41d3-82e1-79916c7d7e5b
+2024-09-04 09:47:15,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:47:16,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:47:17,105 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023&created_at=gte.2024-09-04%2000 "HTTP/2 400 Bad Request"
+2024-09-04 09:47:59,509 - __main__ - INFO - execute message 1f75e8d2-7b54-4359-a184-3f3b96241260
+2024-09-04 09:48:01,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:48:20,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:48:51,871 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023&created_at=gte.2024-09-04%2000 "HTTP/2 400 Bad Request"
+2024-09-04 09:50:07,662 - __main__ - INFO - execute message 1a20bf52-205b-4c36-9ce6-c42662b038af
+2024-09-04 09:50:09,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:50:14,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:50:38,147 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023&created_at=gte.2024-09-04%2000 "HTTP/2 400 Bad Request"
+2024-09-04 09:53:24,280 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 09:53:26,686 - __main__ - INFO - execute message 4e0cf28f-ae84-41c5-8fdd-17ec469a2c09
+2024-09-04 09:53:28,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:53:29,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 09:53:35,058 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 10:01:17,332 - __main__ - INFO - execute message 16d41ae7-2062-4cca-b930-1e91279b64e1
+2024-09-04 10:01:19,890 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:01:40,494 - __main__ - INFO - execute message dce4e874-7ba3-4071-a245-0809987ee4bb
+2024-09-04 10:01:42,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:02:37,458 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:02:39,589 - __main__ - INFO - execute message 6e3fabcf-ec38-491d-b890-7dd3b367dc43
+2024-09-04 10:02:41,554 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:02:57,408 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:02:58,108 - __main__ - INFO - execute message ad21b21d-2acd-4858-b42b-ee3701ae308d
+2024-09-04 10:02:59,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:03:54,957 - __main__ - INFO - execute message 42413fb3-01ce-41ca-a188-fd93f6ee9cae
+2024-09-04 10:03:56,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:04:23,467 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:04:26,562 - __main__ - INFO - execute message 5ce47f86-c4d5-4ac5-ad89-aa0687d026be
+2024-09-04 10:04:28,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:04:38,524 - __main__ - INFO - execute message bcf59c60-f220-4a9e-8e6a-d20133491630
+2024-09-04 10:04:40,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:05:29,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:06:45,286 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:06:53,749 - __main__ - INFO - execute message 319d678e-083b-4eca-87ef-746e5d4c1a37
+2024-09-04 10:06:55,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:07:16,141 - __main__ - INFO - execute message bd77af13-1275-43bd-9c6f-99d7d946cf95
+2024-09-04 10:07:18,202 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:09:28,064 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:09:33,980 - __main__ - INFO - execute message 4977b0d5-dda1-4d2f-a661-3b91c397b48c
+2024-09-04 10:09:36,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:10:00,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:10:29,765 - __main__ - INFO - execute message 61546a1b-2ee8-4b82-97ce-e1b508bca169
+2024-09-04 10:10:32,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:10:44,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:01,514 - __main__ - INFO - execute message b6879687-6874-4b7f-86b3-5dd724e9c56c
+2024-09-04 10:11:03,472 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:09,049 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:17,120 - __main__ - INFO - execute message 5cea956b-f3dc-4550-994b-b0ed951ddfc6
+2024-09-04 10:11:18,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:20,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:29,457 - __main__ - INFO - execute message a4afea0d-c2a0-49a6-ba0c-00551a147f14
+2024-09-04 10:11:31,431 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:11:33,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:12:28,090 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:12:32,514 - __main__ - INFO - execute message f6837ed0-7c4a-48a1-a9ff-2f0786c85b93
+2024-09-04 10:12:34,992 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:12:36,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:12:42,054 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22price%22%2C%22phone%22%2C%22created_at%22%2C%22item%22%2C%22quantity%22 "HTTP/2 201 Created"
+2024-09-04 10:12:55,761 - __main__ - INFO - execute message 30e5791f-0042-4429-9032-34812a7c678a
+2024-09-04 10:12:57,691 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:12:59,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:13:06,352 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22price%22%2C%22phone%22%2C%22created_at%22%2C%22item%22%2C%22quantity%22 "HTTP/2 201 Created"
+2024-09-04 10:13:24,007 - __main__ - INFO - execute message 6cd8dec5-003f-493e-9f22-1bb889e4602c
+2024-09-04 10:13:25,858 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:14:20,233 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:14:22,231 - __main__ - INFO - execute message 215616da-54f9-49bf-b16e-246201a42c68
+2024-09-04 10:14:24,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:14:33,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:14:36,301 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 10:14:38,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:14:40,556 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 10:14:51,532 - __main__ - INFO - execute message 255b91b9-492a-4a1b-80f7-970ff965b794
+2024-09-04 10:14:53,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:15:01,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:15:01,412 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 10:52:53,832 - __main__ - INFO - execute message aeb5a93f-3380-4d3d-875c-ffd7335e7106
+2024-09-04 10:52:56,517 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:53:13,558 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:56:07,112 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22quantity%22%2C%22price%22%2C%22item%22%2C%22phone%22%2C%22created_at%22 "HTTP/2 400 Bad Request"
+2024-09-04 10:58:59,537 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:59:08,000 - __main__ - INFO - execute message 0bb46a0d-8c97-4c4a-a4bd-c708dfff5a92
+2024-09-04 10:59:10,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:59:15,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:59:15,987 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22price%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22 "HTTP/2 201 Created"
+2024-09-04 10:59:32,554 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 10:59:34,610 - __main__ - INFO - execute message b0a719bc-645c-4b41-8440-56a893bea4e8
+2024-09-04 10:59:36,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:59:37,936 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 10:59:38,307 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22item%22%2C%22created_at%22%2C%22phone%22%2C%22quantity%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 11:04:03,114 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 11:04:11,420 - __main__ - INFO - execute message ae910734-e40e-4ebf-a6a1-27b25f3489c9
+2024-09-04 11:04:13,290 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:04:15,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:04:16,469 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22phone%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 11:04:42,088 - __main__ - INFO - Running app telegram-adapter
+2024-09-04 11:04:43,385 - __main__ - INFO - execute message 0deb3fdd-2449-435f-a82b-d332eecd23e9
+2024-09-04 11:04:45,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:04:47,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:04:47,686 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 11:10:11,193 - __main__ - INFO - execute message 229ba38c-8fff-4493-86df-8cb2b005a9c6
+2024-09-04 11:10:13,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:10:14,973 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:10:17,523 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 11:11:04,808 - __main__ - INFO - execute message 5afb93f4-24d5-4feb-adf3-13fd35058a0f
+2024-09-04 11:11:06,779 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:11:08,050 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 11:11:10,825 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 400 Bad Request"
+2024-09-04 12:06:15,033 - __main__ - INFO - execute message f23eb816-c1f5-46f5-9207-62e0815d5122
+2024-09-04 12:06:20,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:06:20,930 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:06:22,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:06:23,045 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:07:04,695 - __main__ - INFO - execute message 2639f473-94f6-48e6-b011-ff56f18ae1d5
+2024-09-04 12:07:08,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:07:09,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:07:10,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:07:10,989 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.5621396334&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 12:08:02,818 - __main__ - INFO - execute message 426a03d4-e922-4a9c-9060-f14c238ec1c6
+2024-09-04 12:08:29,483 - __main__ - INFO - execute message f13e3d9a-4d0b-4e15-af98-8e854911bbf8
+2024-09-04 12:08:35,691 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:08:36,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:08:37,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:08:38,364 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:08:40,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:08:40,957 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:09:30,757 - __main__ - INFO - execute message ce9cbc6c-0e8d-4d9c-8686-16ce1dbbcadf
+2024-09-04 12:09:36,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:09:37,031 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:09:38,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:09:38,960 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:13:44,621 - __main__ - INFO - execute message f7fa5574-ff3e-4c82-bec0-f059a33fcb7a
+2024-09-04 12:13:46,624 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:13:48,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:13:48,860 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:15:01,005 - __main__ - INFO - execute message 27baf46d-8eb1-4307-9622-040e3e452db4
+2024-09-04 12:15:03,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:15:03,751 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-09-04 12:15:40,594 - __main__ - INFO - execute message c32a7e14-6c3e-4f22-bb34-04be43cb841b
+2024-09-04 12:15:42,491 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:15:43,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:15:44,032 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-04&created_at=gte.2024-09-04 "HTTP/2 200 OK"
+2024-09-04 12:17:18,040 - __main__ - INFO - execute message 0689be09-7ef6-4e7c-b468-6c83df8e63c8
+2024-09-04 12:17:20,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:21,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:22,172 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:17:38,394 - __main__ - INFO - execute message abea85a0-511b-458c-b00e-c231b78d8758
+2024-09-04 12:17:42,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:17:42,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:44,199 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:44,571 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 12:17:52,891 - __main__ - INFO - execute message 5f308ad9-9384-42e4-8b67-051fe339a563
+2024-09-04 12:17:56,894 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:17:57,460 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:59,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:17:59,706 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 12:23:42,046 - __main__ - INFO - execute message ea7cd7a8-8b16-4bac-87ed-763d79be5fa7
+2024-09-04 12:23:49,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:23:50,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:23:51,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:23:52,532 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:24:24,048 - __main__ - INFO - execute message 319df2af-229e-422e-b9c9-331c14610821
+2024-09-04 12:24:32,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:24:32,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:24:34,527 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:24:34,981 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 201 Created"
+2024-09-04 12:24:53,419 - __main__ - INFO - execute message 864342f0-2dec-450c-b2e0-a851a840da0a
+2024-09-04 12:24:58,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:24:58,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:25:00,222 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:25:00,626 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 12:26:35,095 - __main__ - INFO - execute message bcb26f6b-6313-477e-bf1a-c3eee4ac9501
+2024-09-04 12:26:38,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+2024-09-04 12:26:39,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:26:40,745 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 12:26:41,451 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/sell?select=%2A&phone=eq.1297511546&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 12:26:43,683 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:21:41,132 - __main__ - INFO - execute message 3c234f87-5521-43c2-ab2a-7ca1375ae071
+2024-09-04 21:21:43,888 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:21:44,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:21:46,107 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 400 Bad Request"
+2024-09-04 21:22:11,699 - __main__ - INFO - execute message 657fed4c-29b0-4812-ab20-8e841462ffe2
+2024-09-04 21:22:13,259 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:22:14,457 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:22:14,928 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 21:24:41,215 - __main__ - INFO - execute message 11d4b6bd-2c6e-41f3-bb46-e70772a3cf27
+2024-09-04 21:24:43,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:24:44,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:24:45,515 - httpx - INFO - HTTP Request: GET https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?select=%2A&phone=eq.6260242129&created_at=lte.2024-09-04%2023%3A59&created_at=gte.2024-09-04%2000%3A00 "HTTP/2 200 OK"
+2024-09-04 21:24:56,990 - __main__ - INFO - execute message 9a93432c-4270-4de0-9dc1-2c89de0c8cf6
+2024-09-04 21:24:59,014 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:25:00,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-09-04 21:25:00,263 - httpx - INFO - HTTP Request: POST https://ndqexeogcanhayqqcesj.supabase.co/rest/v1/purchases?columns=%22phone%22%2C%22item%22%2C%22quantity%22%2C%22created_at%22%2C%22price%22 "HTTP/2 400 Bad Request"
